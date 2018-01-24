@@ -1,5 +1,6 @@
 package radiobutton.cursoandroid.com.radiobutton;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,7 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private RadioButton radioButton1;
     private RadioButton radioButton2;
